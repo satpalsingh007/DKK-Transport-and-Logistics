@@ -1,39 +1,34 @@
 {
   "name": "dkk-transport-and-logistics",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.16.3",
+    "@parcel/transformer-webmanifest": "^2.16.3",
+    "parcel": "^2.16.3"
+  },
   "dependencies": {
-    "@testing-library/dom": "^10.4.1",
-    "@testing-library/jest-dom": "^6.9.1",
-    "@testing-library/react": "^16.3.1",
-    "@testing-library/user-event": "^13.5.0",
+    "@emailjs/browser": "^4.4.1",
+    "@fortawesome/react-fontawesome": "^3.1.1",
+    "@types/swiper": "^5.4.3",
+    "clsx": "^2.1.1",
+    "font-awesome": "^4.7.0",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "react-helmet": "^6.1.0",
+    "react-id-swiper": "^4.0.0",
+    "react-router": "^7.1.5",
+    "react-router-dom": "^6.30.2",
+    "react-router-sitemap": "^1.2.0",
+    "remixicon": "^4.6.0",
+    "swiper": "^11.2.10"
   }
 }

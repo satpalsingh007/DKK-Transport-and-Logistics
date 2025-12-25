@@ -1,0 +1,272 @@
+.contact-us {
+  min-height: 100vh;
+  background-color: white;
+  color: black;
+  padding: 25vh 5vw 10vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.contact-us-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-us-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.contact-us-header h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  margin-bottom: 1rem;
+  
+}
+
+.contact-us-header p {
+  font-size: 1.2rem;
+  color: black;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.contact-info-section h2,
+.location-section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #1486dd;
+  border-bottom: 2px solid #1486dd;
+  padding-bottom: 0.5rem;
+}
+
+.contact-info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.info-card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(20, 134, 221, 0.2);
+}
+
+.info-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.info-card h3 {
+  color: #1486dd;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.info-card p {
+  color: black;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.emergency-note {
+  display: block;
+  margin-top: 1rem;
+  color: #ff6b6b;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.location-section {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.location-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.location-details h3 {
+  color: #1486dd;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+
+.location-details p {
+  color: black;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.location-details ul {
+  color: black;
+  margin-bottom: 2rem;
+  padding-left: 1.5rem;
+}
+
+.location-details li {
+  margin-bottom: 0.5rem;
+}
+
+.contact-cta {
+  background: rgba(20, 134, 221, 0.1);
+  padding: 2rem;
+  border-radius: 8px;
+  border-left: 4px solid #1486dd;
+  margin-top: 2rem;
+}
+
+.contact-cta h3 {
+  color: #1486dd;
+  margin-bottom: 1rem;
+}
+
+.contact-cta p {
+  color: black;
+  margin-bottom: 1.5rem;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  text-align: center;
+  min-width: 120px;
+}
+
+.cta-btn.primary {
+  background: linear-gradient(135deg, #1486dd, #054b81);
+  color: #fff;
+}
+
+.cta-btn.primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(20, 134, 221, 0.3);
+}
+
+.cta-btn.secondary {
+  background: transparent;
+  color: #1486dd;
+  border: 2px solid #1486dd;
+}
+
+.cta-btn.secondary:hover {
+  background: #1486dd;
+  color: #fff;
+}
+
+.map-placeholder {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  border: 2px dashed rgba(255, 255, 255, 0.2);
+}
+
+.map-content {
+  text-align: center;
+  color: black;
+}
+
+.map-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  opacity: 0.7;
+}
+
+.map-content p {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.map-content small {
+  color: #888;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-content {
+    gap: 2rem;
+  }
+
+  .contact-us {
+    padding: 5vh 2vw;
+  }
+
+  .contact-us-header {
+    margin-bottom: 2rem;
+  }
+
+  .contact-us-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .contact-us-header p {
+    font-size: 1rem;
+  }
+
+  .contact-info-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .location-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .info-card {
+    padding: 1.5rem;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+  }
+
+  .cta-btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-us-header h1 {
+    font-size: 2rem;
+  }
+
+  .contact-info-section h2,
+  .location-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .info-card h3 {
+    font-size: 1.1rem;
+  }
+}

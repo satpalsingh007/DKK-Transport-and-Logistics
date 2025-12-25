@@ -1,0 +1,146 @@
+.footer {
+    /* min-height: 100vh; */
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    color: #054b81;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10vh 0 6vh 0;
+    gap: 35px;
+    /* position: fixed; */
+    /* bottom: 0; */
+    position: relative;
+    z-index: 100;
+    border-top: #86cbff 2px solid;
+}
+.footer-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.footer-mid-second{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0vh 10vw;
+}
+.footer-logo img{
+    height: 130px;
+    width: auto;
+    background-color: #e5e7eb15;
+}
+.footer-mid-second-left div{
+    color: #054b81;
+}
+.social-links{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.3s ease;
+}
+.footer-mid-second-right{
+    display: flex;
+    text-align: left;
+    gap: 30px;
+}
+.footer-mid-second-right div{
+    text-align: left;
+    /* padding: 0 10px; */
+}
+.footer-mid-second-right div h3{
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+    color: black;
+}
+.footer-mid-second-right div div{
+    font-size: 18px;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    /* justify-content: center; */
+    line-height: 35px;
+    transition: all 0.5s ease;
+}
+.footer-mid-second-right div div:hover{
+    color: #1881d2;
+}
+
+.footer-end{
+    background-color: #1881d2;
+    color: black;
+    width: 100vw;
+    font-weight: 200;
+    font-size: 18px;
+    position: absolute;
+    bottom: 0;
+    padding: 5px 0;
+}
+
+.social-links div{
+    color: white;
+    background-color: #054b81;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.social-links div:hover{
+    background-color: #1881d2;
+
+}
+
+@media (max-width: 1200px){
+    .footer-mid-second{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+}
+@media (max-width: 767px){
+    .footer-mid-second-right{
+        flex-wrap: wrap;
+      
+    }
+   
+}
+
+.footer-mid-second-quick{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #054b81;
+    text-decoration: none;
+
+}   
+
+.footer-links{
+     color: #054b81;
+    text-decoration: none;
+
+}
+
+.footer-truck img{
+    height: 200px;
+    width: auto;
+}
