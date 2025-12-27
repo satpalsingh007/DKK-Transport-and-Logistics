@@ -749,7 +749,7 @@ var _faq = require("./components/Faq");
 var _faqDefault = parcelHelpers.interopDefault(_faq);
 var _contactUs = require("./components/ContactUs");
 var _contactUsDefault = parcelHelpers.interopDefault(_contactUs);
-const App = ()=>{
+const AppLayout = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactHelmet.Helmet), {
@@ -758,138 +758,184 @@ const App = ()=>{
                         children: "DKK Transport & Logistics"
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 19,
-                        columnNumber: 17
+                        lineNumber: 21,
+                        columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("meta", {
                         name: "description",
                         content: "DKK Transport & Logistics"
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 20,
-                        columnNumber: 17
+                        lineNumber: 22,
+                        columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("meta", {
                         name: "keywords",
                         content: "transport, logistics, freight, delivery"
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 21,
-                        columnNumber: 17
+                        lineNumber: 23,
+                        columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/App.js",
-                lineNumber: 18,
-                columnNumber: 5
+                lineNumber: 20,
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 23,
-                columnNumber: 5
+                lineNumber: 25,
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Outlet), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 24,
-                columnNumber: 5
+                lineNumber: 26,
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 25,
-                columnNumber: 5
+                lineNumber: 27,
+                columnNumber: 7
             }, undefined)
         ]
     }, void 0, true);
 };
-_c = App;
-const appRouter = (0, _reactRouterDom.createBrowserRouter)([
-    {
-        path: "/",
-        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
-            fileName: "src/App.js",
-            lineNumber: 32,
-            columnNumber: 18
-        }, undefined),
-        children: [
-            {
+_c = AppLayout;
+// Main App with HashRouter
+const App = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.HashRouter), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Routes), {
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
                 path: "/",
-                element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homepageDefault.default), {}, void 0, false, {
-                    fileName: "src/App.js",
-                    lineNumber: 34,
-                    columnNumber: 35
-                }, undefined)
-            },
-            {
-                path: "our-company",
-                element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _ourCompanyDefault.default), {}, void 0, false, {
-                    fileName: "src/App.js",
-                    lineNumber: 35,
-                    columnNumber: 45
-                }, undefined)
-            },
-            {
-                path: "our-commitment",
-                element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _ourCommitmentDefault.default), {}, void 0, false, {
+                element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {}, void 0, false, {
                     fileName: "src/App.js",
                     lineNumber: 36,
-                    columnNumber: 48
-                }, undefined)
-            },
-            {
-                path: "road-freight",
-                element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _roadFreightDefault.default), {}, void 0, false, {
-                    fileName: "src/App.js",
-                    lineNumber: 37,
-                    columnNumber: 46
-                }, undefined)
-            },
-            {
-                path: "express-delivery",
-                element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _expressDeliveryDefault.default), {}, void 0, false, {
-                    fileName: "src/App.js",
-                    lineNumber: 38,
-                    columnNumber: 50
-                }, undefined)
-            },
-            {
-                path: "storage-warehouse",
-                element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _storageWarehouseDefault.default), {}, void 0, false, {
-                    fileName: "src/App.js",
-                    lineNumber: 39,
-                    columnNumber: 51
-                }, undefined)
-            },
-            {
-                path: "faq",
-                element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _faqDefault.default), {}, void 0, false, {
-                    fileName: "src/App.js",
-                    lineNumber: 40,
-                    columnNumber: 37
-                }, undefined)
-            },
-            {
-                path: "contact-us",
-                element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactUsDefault.default), {}, void 0, false, {
-                    fileName: "src/App.js",
-                    lineNumber: 41,
-                    columnNumber: 44
-                }, undefined)
-            }
-        ]
-    }
-]);
-// Rendering the router to the DOM
+                    columnNumber: 32
+                }, void 0),
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        index: true,
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homepageDefault.default), {}, void 0, false, {
+                            fileName: "src/App.js",
+                            lineNumber: 37,
+                            columnNumber: 31
+                        }, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 37,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "our-company",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _ourCompanyDefault.default), {}, void 0, false, {
+                            fileName: "src/App.js",
+                            lineNumber: 38,
+                            columnNumber: 44
+                        }, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 38,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "our-commitment",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _ourCommitmentDefault.default), {}, void 0, false, {
+                            fileName: "src/App.js",
+                            lineNumber: 39,
+                            columnNumber: 47
+                        }, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 39,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "road-freight",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _roadFreightDefault.default), {}, void 0, false, {
+                            fileName: "src/App.js",
+                            lineNumber: 40,
+                            columnNumber: 45
+                        }, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 40,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "express-delivery",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _expressDeliveryDefault.default), {}, void 0, false, {
+                            fileName: "src/App.js",
+                            lineNumber: 41,
+                            columnNumber: 49
+                        }, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 41,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "storage-warehouse",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _storageWarehouseDefault.default), {}, void 0, false, {
+                            fileName: "src/App.js",
+                            lineNumber: 42,
+                            columnNumber: 50
+                        }, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 42,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "faq",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _faqDefault.default), {}, void 0, false, {
+                            fileName: "src/App.js",
+                            lineNumber: 43,
+                            columnNumber: 36
+                        }, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 43,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "contact-us",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactUsDefault.default), {}, void 0, false, {
+                            fileName: "src/App.js",
+                            lineNumber: 44,
+                            columnNumber: 43
+                        }, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 44,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/App.js",
+                lineNumber: 36,
+                columnNumber: 7
+            }, undefined)
+        }, void 0, false, {
+            fileName: "src/App.js",
+            lineNumber: 35,
+            columnNumber: 5
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/App.js",
+        lineNumber: 34,
+        columnNumber: 3
+    }, undefined);
+_c1 = App;
+// Render to DOM
 const root = (0, _clientDefault.default).createRoot(document.getElementById('main'));
-root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.RouterProvider), {
-    router: appRouter
-}, void 0, false, {
+root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
     fileName: "src/App.js",
-    lineNumber: 51,
-    columnNumber: 5
-}, undefined) // Use RouterProvider to handle routing
-); // ReactDOM.createRoot(document.getElementById("main")).render(<App />);
-var _c;
-$RefreshReg$(_c, "App");
+    lineNumber: 52,
+    columnNumber: 13
+}, undefined));
+var _c, _c1;
+$RefreshReg$(_c, "AppLayout");
+$RefreshReg$(_c1, "App");
 
   $parcel$ReactRefreshHelpers$4089.postlude(module);
 } finally {
@@ -19002,7 +19048,7 @@ let savedScrollPositions = {};
     return (0, _router.matchPath)(path.pathname, nextPath) != null || (0, _router.matchPath)(path.pathname, currentPath) != null;
 }
 
-},{"react":"jMk1U","react-dom":"i4X7T","react-router":"dk4OM","@remix-run/router":"2GHDR","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"dk4OM":[function(require,module,exports,__globalThis) {
+},{"react":"jMk1U","react-dom":"i4X7T","react-router":"4ChVy","@remix-run/router":"2GHDR","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"4ChVy":[function(require,module,exports,__globalThis) {
 /**
  * React Router v6.30.2
  *
@@ -29116,7 +29162,7 @@ function Homepage() {
         },
         {
             image: homepage2,
-            heading: 'Global Logistics Solutions'
+            heading: 'Best Logistics Solutions'
         },
         {
             image: homepage3,
@@ -30488,10 +30534,10 @@ const Footer = ()=>{
                                                 width: "16",
                                                 height: "16",
                                                 fill: "currentColor",
-                                                className: "bi bi-telephone",
+                                                className: "bi bi-envelope",
                                                 viewBox: "0 0 16 16",
                                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                                    d: "M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"
+                                                    d: "M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"
                                                 }, void 0, false, {
                                                     fileName: "src/components/Footer.js",
                                                     lineNumber: 40,
@@ -30502,40 +30548,12 @@ const Footer = ()=>{
                                                 lineNumber: 32,
                                                 columnNumber: 15
                                             }, undefined),
-                                            "\xa0 \xa0+61 431-730-804"
+                                            " ",
+                                            "\xa0 \xa0info@dkktransport.com"
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/Footer.js",
                                         lineNumber: 31,
-                                        columnNumber: 13
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-                                                xmlns: "http://www.w3.org/2000/svg",
-                                                width: "16",
-                                                height: "16",
-                                                fill: "currentColor",
-                                                className: "bi bi-envelope",
-                                                viewBox: "0 0 16 16",
-                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                                    d: "M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"
-                                                }, void 0, false, {
-                                                    fileName: "src/components/Footer.js",
-                                                    lineNumber: 53,
-                                                    columnNumber: 17
-                                                }, undefined)
-                                            }, void 0, false, {
-                                                fileName: "src/components/Footer.js",
-                                                lineNumber: 45,
-                                                columnNumber: 15
-                                            }, undefined),
-                                            " ",
-                                            "\xa0 \xa0dkktransport@yahoo.com"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/Footer.js",
-                                        lineNumber: 44,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30552,52 +30570,52 @@ const Footer = ()=>{
                                                         d: "M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
                                                     }, void 0, false, {
                                                         fileName: "src/components/Footer.js",
-                                                        lineNumber: 66,
+                                                        lineNumber: 53,
                                                         columnNumber: 17
                                                     }, undefined),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
                                                         d: "M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
                                                     }, void 0, false, {
                                                         fileName: "src/components/Footer.js",
-                                                        lineNumber: 67,
+                                                        lineNumber: 54,
                                                         columnNumber: 17
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/components/Footer.js",
-                                                lineNumber: 58,
+                                                lineNumber: 45,
                                                 columnNumber: 15
                                             }, undefined),
                                             " ",
                                             "\xa0 \xa0280 Flinders Street, Townsville ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                                 fileName: "src/components/Footer.js",
-                                                lineNumber: 69,
+                                                lineNumber: 56,
                                                 columnNumber: 60
                                             }, undefined),
                                             " \xa0 \xa0Queensland\xa0Australia ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                                 fileName: "src/components/Footer.js",
-                                                lineNumber: 69,
+                                                lineNumber: 56,
                                                 columnNumber: 100
                                             }, undefined),
                                             " \xa0 \xa0and ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                                 fileName: "src/components/Footer.js",
-                                                lineNumber: 69,
+                                                lineNumber: 56,
                                                 columnNumber: 123
                                             }, undefined),
                                             " \xa0 \xa0 93 Roberts crescent Bellbird park  ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                                 fileName: "src/components/Footer.js",
-                                                lineNumber: 69,
+                                                lineNumber: 56,
                                                 columnNumber: 178
                                             }, undefined),
                                             " \xa0 \xa0 4300 Brisbane Queensland Australia"
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/Footer.js",
-                                        lineNumber: 57,
+                                        lineNumber: 44,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
@@ -30613,7 +30631,7 @@ const Footer = ()=>{
                                         children: "Services"
                                     }, void 0, false, {
                                         fileName: "src/components/Footer.js",
-                                        lineNumber: 73,
+                                        lineNumber: 60,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -30625,7 +30643,7 @@ const Footer = ()=>{
                                         children: "Road Freight"
                                     }, void 0, false, {
                                         fileName: "src/components/Footer.js",
-                                        lineNumber: 74,
+                                        lineNumber: 61,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -30637,7 +30655,7 @@ const Footer = ()=>{
                                         children: "Express Delivery"
                                     }, void 0, false, {
                                         fileName: "src/components/Footer.js",
-                                        lineNumber: 75,
+                                        lineNumber: 62,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -30649,13 +30667,13 @@ const Footer = ()=>{
                                         children: "Storage & Warehouse"
                                     }, void 0, false, {
                                         fileName: "src/components/Footer.js",
-                                        lineNumber: 76,
+                                        lineNumber: 63,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/Footer.js",
-                                lineNumber: 72,
+                                lineNumber: 59,
                                 columnNumber: 11
                             }, undefined)
                         ]
@@ -30675,7 +30693,7 @@ const Footer = ()=>{
                 children: "\xa9 2025 DKK Transport and Logistics. All Rights Reserved."
             }, void 0, false, {
                 fileName: "src/components/Footer.js",
-                lineNumber: 80,
+                lineNumber: 67,
                 columnNumber: 7
             }, undefined)
         ]
@@ -30800,38 +30818,24 @@ function OurCompany() {
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        children: "Air Cargo"
+                                        children: "Warehousing and Distribution"
                                     }, void 0, false, {
                                         fileName: "src/components/OurCompany.js",
                                         lineNumber: 26,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        children: "Sea Shipping"
+                                        children: "Customs Clearance"
                                     }, void 0, false, {
                                         fileName: "src/components/OurCompany.js",
                                         lineNumber: 27,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        children: "Warehousing and Distribution"
-                                    }, void 0, false, {
-                                        fileName: "src/components/OurCompany.js",
-                                        lineNumber: 28,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        children: "Customs Clearance"
-                                    }, void 0, false, {
-                                        fileName: "src/components/OurCompany.js",
-                                        lineNumber: 29,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                         children: "Supply Chain Management"
                                     }, void 0, false, {
                                         fileName: "src/components/OurCompany.js",
-                                        lineNumber: 30,
+                                        lineNumber: 28,
                                         columnNumber: 13
                                     }, this)
                                 ]
@@ -30853,7 +30857,7 @@ function OurCompany() {
                                 children: "Why Choose Us?"
                             }, void 0, false, {
                                 fileName: "src/components/OurCompany.js",
-                                lineNumber: 34,
+                                lineNumber: 32,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30868,32 +30872,32 @@ function OurCompany() {
                                                     className: "fa fa-handshake"
                                                 }, void 0, false, {
                                                     fileName: "src/components/OurCompany.js",
-                                                    lineNumber: 37,
+                                                    lineNumber: 35,
                                                     columnNumber: 54
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "src/components/OurCompany.js",
-                                                lineNumber: 37,
+                                                lineNumber: 35,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h6", {
                                                 children: "Reliability"
                                             }, void 0, false, {
                                                 fileName: "src/components/OurCompany.js",
-                                                lineNumber: 38,
+                                                lineNumber: 36,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                                 children: "On-time deliveries with real-time tracking."
                                             }, void 0, false, {
                                                 fileName: "src/components/OurCompany.js",
-                                                lineNumber: 39,
+                                                lineNumber: 37,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/OurCompany.js",
-                                        lineNumber: 36,
+                                        lineNumber: 34,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30905,32 +30909,32 @@ function OurCompany() {
                                                     className: "fa fa-clock"
                                                 }, void 0, false, {
                                                     fileName: "src/components/OurCompany.js",
-                                                    lineNumber: 42,
+                                                    lineNumber: 40,
                                                     columnNumber: 54
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "src/components/OurCompany.js",
-                                                lineNumber: 42,
+                                                lineNumber: 40,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h6", {
                                                 children: "24 x 7 User Support"
                                             }, void 0, false, {
                                                 fileName: "src/components/OurCompany.js",
-                                                lineNumber: 43,
+                                                lineNumber: 41,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                                 children: "If our customer has any problem or query, we are always happy to help."
                                             }, void 0, false, {
                                                 fileName: "src/components/OurCompany.js",
-                                                lineNumber: 44,
+                                                lineNumber: 42,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/OurCompany.js",
-                                        lineNumber: 41,
+                                        lineNumber: 39,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30942,44 +30946,44 @@ function OurCompany() {
                                                     className: "fa fa-hand-peace"
                                                 }, void 0, false, {
                                                     fileName: "src/components/OurCompany.js",
-                                                    lineNumber: 47,
+                                                    lineNumber: 45,
                                                     columnNumber: 54
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "src/components/OurCompany.js",
-                                                lineNumber: 47,
+                                                lineNumber: 45,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h6", {
                                                 children: "Expertise"
                                             }, void 0, false, {
                                                 fileName: "src/components/OurCompany.js",
-                                                lineNumber: 48,
+                                                lineNumber: 46,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                                 children: "Years of experience in diverse industries."
                                             }, void 0, false, {
                                                 fileName: "src/components/OurCompany.js",
-                                                lineNumber: 49,
+                                                lineNumber: 47,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/OurCompany.js",
-                                        lineNumber: 46,
+                                        lineNumber: 44,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/OurCompany.js",
-                                lineNumber: 35,
+                                lineNumber: 33,
                                 columnNumber: 12
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/OurCompany.js",
-                        lineNumber: 33,
+                        lineNumber: 31,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
@@ -30989,34 +30993,27 @@ function OurCompany() {
                                 children: "Contact Us"
                             }, void 0, false, {
                                 fileName: "src/components/OurCompany.js",
-                                lineNumber: 54,
+                                lineNumber: 52,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "Get in touch for a quote or more information."
                             }, void 0, false, {
                                 fileName: "src/components/OurCompany.js",
-                                lineNumber: 55,
+                                lineNumber: 53,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "Email: dkktransport@yahoo.com"
+                                children: "Email:info@dkktransport.com"
                             }, void 0, false, {
                                 fileName: "src/components/OurCompany.js",
-                                lineNumber: 56,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "Phone:    +61 431-730-804"
-                            }, void 0, false, {
-                                fileName: "src/components/OurCompany.js",
-                                lineNumber: 57,
+                                lineNumber: 54,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/OurCompany.js",
-                        lineNumber: 53,
+                        lineNumber: 51,
                         columnNumber: 9
                     }, this)
                 ]
@@ -31381,7 +31378,7 @@ function RoadFreight() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "Email: dkktransport@yahoo.comm | Phone: +61 431-730-804"
+                                children: "Email: info@dkktransport.com "
                             }, void 0, false, {
                                 fileName: "src/components/RoadFreight.js",
                                 lineNumber: 34,
@@ -31605,7 +31602,7 @@ function ExpressDelivery() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "Email: dkktransport@yahoo.com | Phone: +61 431-730-804"
+                                children: "Email: info@dkktransport.com"
                             }, void 0, false, {
                                 fileName: "src/components/ExpressDelivery.js",
                                 lineNumber: 39,
@@ -31829,7 +31826,7 @@ function StorageWarehouse() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "Email: dkktransport@yahoo.com | Phone: +61 431-730-804"
+                                children: "Email: info@dkktransport.com"
                             }, void 0, false, {
                                 fileName: "src/components/StorageWarehouse.js",
                                 lineNumber: 39,
@@ -32191,52 +32188,6 @@ const ContactUs = ()=>{
                                             children: [
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                     className: "info-icon",
-                                                    children: "\uD83D\uDCDE"
-                                                }, void 0, false, {
-                                                    fileName: "src/components/ContactUs.js",
-                                                    lineNumber: 25,
-                                                    columnNumber: 17
-                                                }, undefined),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                                    children: "Phone"
-                                                }, void 0, false, {
-                                                    fileName: "src/components/ContactUs.js",
-                                                    lineNumber: 26,
-                                                    columnNumber: 17
-                                                }, undefined),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                    children: [
-                                                        "+61 431-730-804",
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                                                            fileName: "src/components/ContactUs.js",
-                                                            lineNumber: 27,
-                                                            columnNumber: 35
-                                                        }, undefined),
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                            className: "emergency-note",
-                                                            children: "24/7 Emergency Support Available"
-                                                        }, void 0, false, {
-                                                            fileName: "src/components/ContactUs.js",
-                                                            lineNumber: 28,
-                                                            columnNumber: 17
-                                                        }, undefined)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "src/components/ContactUs.js",
-                                                    lineNumber: 27,
-                                                    columnNumber: 17
-                                                }, undefined)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "src/components/ContactUs.js",
-                                            lineNumber: 24,
-                                            columnNumber: 15
-                                        }, undefined),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "info-card",
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "info-icon",
                                                     children: "\u2709\uFE0F"
                                                 }, void 0, false, {
                                                     fileName: "src/components/ContactUs.js",
@@ -32251,7 +32202,7 @@ const ContactUs = ()=>{
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                    children: "dkktransport@yahoo.com"
+                                                    children: "info@dkktransport.com"
                                                 }, void 0, false, {
                                                     fileName: "src/components/ContactUs.js",
                                                     lineNumber: 34,
@@ -32300,27 +32251,16 @@ const ContactUs = ()=>{
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                 className: "cta-buttons",
-                                                children: [
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                        href: "tel:+15551234567",
-                                                        className: "cta-btn primary",
-                                                        children: "Call Now"
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/ContactUs.js",
-                                                        lineNumber: 52,
-                                                        columnNumber: 21
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                        href: "mailto:info@dkktransport.com",
-                                                        className: "cta-btn secondary",
-                                                        children: "Send Email"
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/ContactUs.js",
-                                                        lineNumber: 53,
-                                                        columnNumber: 21
-                                                    }, undefined)
-                                                ]
-                                            }, void 0, true, {
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                    href: "mailto:info@dkktransport.com",
+                                                    className: "cta-btn secondary",
+                                                    children: "Send Email"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/ContactUs.js",
+                                                    lineNumber: 53,
+                                                    columnNumber: 21
+                                                }, undefined)
+                                            }, void 0, false, {
                                                 fileName: "src/components/ContactUs.js",
                                                 lineNumber: 51,
                                                 columnNumber: 19
