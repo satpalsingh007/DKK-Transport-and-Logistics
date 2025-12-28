@@ -749,6 +749,8 @@ var _faq = require("./components/Faq");
 var _faqDefault = parcelHelpers.interopDefault(_faq);
 var _contactUs = require("./components/ContactUs");
 var _contactUsDefault = parcelHelpers.interopDefault(_contactUs);
+var _longHaul = require("./components/LongHaul");
+var _longHaulDefault = parcelHelpers.interopDefault(_longHaul);
 const AppLayout = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
@@ -758,7 +760,7 @@ const AppLayout = ()=>{
                         children: "DKK Transport & Logistics"
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 21,
+                        lineNumber: 22,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("meta", {
@@ -766,7 +768,7 @@ const AppLayout = ()=>{
                         content: "DKK Transport & Logistics"
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 22,
+                        lineNumber: 23,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("meta", {
@@ -774,28 +776,28 @@ const AppLayout = ()=>{
                         content: "transport, logistics, freight, delivery"
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 23,
+                        lineNumber: 24,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/App.js",
-                lineNumber: 20,
+                lineNumber: 21,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 25,
+                lineNumber: 26,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Outlet), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 26,
+                lineNumber: 27,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 27,
+                lineNumber: 28,
                 columnNumber: 7
             }, undefined)
         ]
@@ -809,7 +811,7 @@ const App = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Has
                 path: "/",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 36,
+                    lineNumber: 37,
                     columnNumber: 32
                 }, void 0),
                 children: [
@@ -817,20 +819,8 @@ const App = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Has
                         index: true,
                         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homepageDefault.default), {}, void 0, false, {
                             fileName: "src/App.js",
-                            lineNumber: 37,
-                            columnNumber: 31
-                        }, void 0)
-                    }, void 0, false, {
-                        fileName: "src/App.js",
-                        lineNumber: 37,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                        path: "our-company",
-                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _ourCompanyDefault.default), {}, void 0, false, {
-                            fileName: "src/App.js",
                             lineNumber: 38,
-                            columnNumber: 44
+                            columnNumber: 31
                         }, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
@@ -838,11 +828,11 @@ const App = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Has
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                        path: "our-commitment",
-                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _ourCommitmentDefault.default), {}, void 0, false, {
+                        path: "our-company",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _ourCompanyDefault.default), {}, void 0, false, {
                             fileName: "src/App.js",
                             lineNumber: 39,
-                            columnNumber: 47
+                            columnNumber: 44
                         }, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
@@ -850,11 +840,11 @@ const App = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Has
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                        path: "road-freight",
-                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _roadFreightDefault.default), {}, void 0, false, {
+                        path: "our-commitment",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _ourCommitmentDefault.default), {}, void 0, false, {
                             fileName: "src/App.js",
                             lineNumber: 40,
-                            columnNumber: 45
+                            columnNumber: 47
                         }, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
@@ -862,11 +852,11 @@ const App = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Has
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                        path: "express-delivery",
-                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _expressDeliveryDefault.default), {}, void 0, false, {
+                        path: "road-freight",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _roadFreightDefault.default), {}, void 0, false, {
                             fileName: "src/App.js",
                             lineNumber: 41,
-                            columnNumber: 49
+                            columnNumber: 45
                         }, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
@@ -874,11 +864,11 @@ const App = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Has
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                        path: "storage-warehouse",
-                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _storageWarehouseDefault.default), {}, void 0, false, {
+                        path: "express-delivery",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _expressDeliveryDefault.default), {}, void 0, false, {
                             fileName: "src/App.js",
                             lineNumber: 42,
-                            columnNumber: 50
+                            columnNumber: 49
                         }, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
@@ -886,11 +876,11 @@ const App = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Has
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                        path: "faq",
-                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _faqDefault.default), {}, void 0, false, {
+                        path: "storage-warehouse",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _storageWarehouseDefault.default), {}, void 0, false, {
                             fileName: "src/App.js",
                             lineNumber: 43,
-                            columnNumber: 36
+                            columnNumber: 50
                         }, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
@@ -898,31 +888,55 @@ const App = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Has
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                        path: "contact-us",
-                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactUsDefault.default), {}, void 0, false, {
+                        path: "long-haul",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _longHaulDefault.default), {}, void 0, false, {
                             fileName: "src/App.js",
                             lineNumber: 44,
-                            columnNumber: 43
+                            columnNumber: 42
                         }, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
                         lineNumber: 44,
                         columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "faq",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _faqDefault.default), {}, void 0, false, {
+                            fileName: "src/App.js",
+                            lineNumber: 45,
+                            columnNumber: 36
+                        }, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 45,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "contact-us",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactUsDefault.default), {}, void 0, false, {
+                            fileName: "src/App.js",
+                            lineNumber: 46,
+                            columnNumber: 43
+                        }, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 46,
+                        columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/App.js",
-                lineNumber: 36,
+                lineNumber: 37,
                 columnNumber: 7
             }, undefined)
         }, void 0, false, {
             fileName: "src/App.js",
-            lineNumber: 35,
+            lineNumber: 36,
             columnNumber: 5
         }, undefined)
     }, void 0, false, {
         fileName: "src/App.js",
-        lineNumber: 34,
+        lineNumber: 35,
         columnNumber: 3
     }, undefined);
 _c1 = App;
@@ -930,7 +944,7 @@ _c1 = App;
 const root = (0, _clientDefault.default).createRoot(document.getElementById('main'));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
     fileName: "src/App.js",
-    lineNumber: 52,
+    lineNumber: 54,
     columnNumber: 13
 }, undefined));
 var _c, _c1;
@@ -942,7 +956,7 @@ $RefreshReg$(_c1, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react-dom/client":"hrvwu","react-router-dom":"61z4w","react-helmet":"90beT","react":"jMk1U","./components/Header":"3PJ6N","./components/Homepage":"6GcdI","./components/Footer":"lq1kZ","./components/OurCompany":"f7yuS","./components/OurCommitment":"97BNg","./components/RoadFreight":"3ZdyF","./components/ExpressDelivery":"aAIfO","./components/StorageWarehouse":"904i2","./components/Faq":"bPQBd","./components/ContactUs":"iu2zp","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"dVPUn":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react-dom/client":"hrvwu","react-router-dom":"61z4w","react-helmet":"90beT","react":"jMk1U","./components/Header":"3PJ6N","./components/Homepage":"6GcdI","./components/Footer":"lq1kZ","./components/OurCompany":"f7yuS","./components/OurCommitment":"97BNg","./components/RoadFreight":"3ZdyF","./components/ExpressDelivery":"aAIfO","./components/StorageWarehouse":"904i2","./components/Faq":"bPQBd","./components/ContactUs":"iu2zp","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./components/LongHaul":"kPGHO"}],"dVPUn":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -26751,6 +26765,21 @@ const Header = ()=>{
                                                 fileName: "src/components/Header.js",
                                                 lineNumber: 114,
                                                 columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                                    to: '/long-haul',
+                                                    onClick: closeMobile,
+                                                    children: "Long-Haul Transport"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Header.js",
+                                                    lineNumber: 120,
+                                                    columnNumber: 19
+                                                }, undefined)
+                                            }, void 0, false, {
+                                                fileName: "src/components/Header.js",
+                                                lineNumber: 119,
+                                                columnNumber: 17
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
@@ -32314,6 +32343,228 @@ $RefreshReg$(_c, "ContactUs");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["frqA7","hh6uc"], "hh6uc", "parcelRequire5eb5", {}, "./", "/", "http://localhost:1234")
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"kPGHO":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$ffde = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$ffde.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$ffde.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+const LongHaulImage = new URL(require("b142efa8dc148110")).href;
+function LongHaul() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "road-freight",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "freight-header",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        children: "Long-Haul Transport Services"
+                    }, void 0, false, {
+                        fileName: "src/components/LongHaul.js",
+                        lineNumber: 7,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: "Reliable and efficient long-distance transportation solutions designed to move your cargo safely across regions and borders."
+                    }, void 0, false, {
+                        fileName: "src/components/LongHaul.js",
+                        lineNumber: 8,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/LongHaul.js",
+                lineNumber: 6,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "freight-content",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "freight-image",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            src: LongHaulImage,
+                            alt: "Long-Haul Transport Services"
+                        }, void 0, false, {
+                            fileName: "src/components/LongHaul.js",
+                            lineNumber: 16,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/LongHaul.js",
+                        lineNumber: 15,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+                        className: "freight-details",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                children: "Why Choose Our Long-Haul Transport?"
+                            }, void 0, false, {
+                                fileName: "src/components/LongHaul.js",
+                                lineNumber: 20,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Nationwide & Cross-Border Reach:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/LongHaul.js",
+                                                lineNumber: 23,
+                                                columnNumber: 15
+                                            }, this),
+                                            " Seamless long-distance coverage connecting major cities, regions, and trade corridors."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/LongHaul.js",
+                                        lineNumber: 22,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Dependable Transit Times:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/LongHaul.js",
+                                                lineNumber: 26,
+                                                columnNumber: 15
+                                            }, this),
+                                            " Advanced route planning and real-time tracking ensure consistent delivery schedules."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/LongHaul.js",
+                                        lineNumber: 25,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Optimized for Distance:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/LongHaul.js",
+                                                lineNumber: 29,
+                                                columnNumber: 15
+                                            }, this),
+                                            " Fuel-efficient vehicles and experienced long-haul drivers reduce delays and costs."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/LongHaul.js",
+                                        lineNumber: 28,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Secure Transport:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/LongHaul.js",
+                                                lineNumber: 32,
+                                                columnNumber: 15
+                                            }, this),
+                                            " Strict safety protocols and vehicle monitoring protect your cargo throughout the journey."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/LongHaul.js",
+                                        lineNumber: 31,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Cost Transparency:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/LongHaul.js",
+                                                lineNumber: 35,
+                                                columnNumber: 15
+                                            }, this),
+                                            " Clear pricing structures with no unexpected charges on long routes."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/LongHaul.js",
+                                        lineNumber: 34,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/LongHaul.js",
+                                lineNumber: 21,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                children: "Our Long-Haul Fleet"
+                            }, void 0, false, {
+                                fileName: "src/components/LongHaul.js",
+                                lineNumber: 39,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Our fleet is purpose-built for long-distance transport and includes sleeper trucks, refrigerated units, flatbeds, and heavy-duty trailers. All vehicles are regularly serviced to ensure reliability over extended journeys."
+                            }, void 0, false, {
+                                fileName: "src/components/LongHaul.js",
+                                lineNumber: 40,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                children: "Request a Long-Haul Quote"
+                            }, void 0, false, {
+                                fileName: "src/components/LongHaul.js",
+                                lineNumber: 46,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Whether you need scheduled long-haul routes or one-time transport, our team is ready to provide a tailored solution that fits your logistics needs."
+                            }, void 0, false, {
+                                fileName: "src/components/LongHaul.js",
+                                lineNumber: 47,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Email: info@dkktransport.au"
+                            }, void 0, false, {
+                                fileName: "src/components/LongHaul.js",
+                                lineNumber: 51,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/LongHaul.js",
+                        lineNumber: 19,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/LongHaul.js",
+                lineNumber: 14,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/LongHaul.js",
+        lineNumber: 5,
+        columnNumber: 5
+    }, this);
+}
+_c = LongHaul;
+exports.default = LongHaul;
+var _c;
+$RefreshReg$(_c, "LongHaul");
+
+  $parcel$ReactRefreshHelpers$ffde.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","b142efa8dc148110":"4XfN6","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"4XfN6":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("long-haul.d8bd8a5b.avif") + "?" + Date.now();
+
+},{}]},["frqA7","hh6uc"], "hh6uc", "parcelRequire5eb5", {}, "./", "/", "http://localhost:1234")
 
 //# sourceMappingURL=dkk-transport-and-logistics.2c54e4d8.js.map
