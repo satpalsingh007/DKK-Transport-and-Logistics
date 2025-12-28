@@ -32354,6 +32354,8 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
 const LongHaulImage = new URL(require("b142efa8dc148110")).href;
 function LongHaul() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -32366,20 +32368,20 @@ function LongHaul() {
                         children: "Long-Haul Transport Services"
                     }, void 0, false, {
                         fileName: "src/components/LongHaul.js",
-                        lineNumber: 7,
+                        lineNumber: 9,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "Reliable and efficient long-distance transportation solutions designed to move your cargo safely across regions and borders."
                     }, void 0, false, {
                         fileName: "src/components/LongHaul.js",
-                        lineNumber: 8,
+                        lineNumber: 10,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/components/LongHaul.js",
-                lineNumber: 6,
+                lineNumber: 8,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -32392,12 +32394,12 @@ function LongHaul() {
                             alt: "Long-Haul Transport Services"
                         }, void 0, false, {
                             fileName: "src/components/LongHaul.js",
-                            lineNumber: 16,
+                            lineNumber: 18,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "src/components/LongHaul.js",
-                        lineNumber: 15,
+                        lineNumber: 17,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
@@ -32407,7 +32409,7 @@ function LongHaul() {
                                 children: "Why Choose Our Long-Haul Transport?"
                             }, void 0, false, {
                                 fileName: "src/components/LongHaul.js",
-                                lineNumber: 20,
+                                lineNumber: 22,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -32418,14 +32420,14 @@ function LongHaul() {
                                                 children: "Nationwide & Cross-Border Reach:"
                                             }, void 0, false, {
                                                 fileName: "src/components/LongHaul.js",
-                                                lineNumber: 23,
+                                                lineNumber: 25,
                                                 columnNumber: 15
                                             }, this),
                                             " Seamless long-distance coverage connecting major cities, regions, and trade corridors."
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/LongHaul.js",
-                                        lineNumber: 22,
+                                        lineNumber: 24,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -32434,14 +32436,14 @@ function LongHaul() {
                                                 children: "Dependable Transit Times:"
                                             }, void 0, false, {
                                                 fileName: "src/components/LongHaul.js",
-                                                lineNumber: 26,
+                                                lineNumber: 28,
                                                 columnNumber: 15
                                             }, this),
                                             " Advanced route planning and real-time tracking ensure consistent delivery schedules."
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/LongHaul.js",
-                                        lineNumber: 25,
+                                        lineNumber: 27,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -32450,14 +32452,14 @@ function LongHaul() {
                                                 children: "Optimized for Distance:"
                                             }, void 0, false, {
                                                 fileName: "src/components/LongHaul.js",
-                                                lineNumber: 29,
+                                                lineNumber: 31,
                                                 columnNumber: 15
                                             }, this),
                                             " Fuel-efficient vehicles and experienced long-haul drivers reduce delays and costs."
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/LongHaul.js",
-                                        lineNumber: 28,
+                                        lineNumber: 30,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -32466,14 +32468,14 @@ function LongHaul() {
                                                 children: "Secure Transport:"
                                             }, void 0, false, {
                                                 fileName: "src/components/LongHaul.js",
-                                                lineNumber: 32,
+                                                lineNumber: 34,
                                                 columnNumber: 15
                                             }, this),
                                             " Strict safety protocols and vehicle monitoring protect your cargo throughout the journey."
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/LongHaul.js",
-                                        lineNumber: 31,
+                                        lineNumber: 33,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -32482,73 +32484,73 @@ function LongHaul() {
                                                 children: "Cost Transparency:"
                                             }, void 0, false, {
                                                 fileName: "src/components/LongHaul.js",
-                                                lineNumber: 35,
+                                                lineNumber: 37,
                                                 columnNumber: 15
                                             }, this),
                                             " Clear pricing structures with no unexpected charges on long routes."
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/LongHaul.js",
-                                        lineNumber: 34,
+                                        lineNumber: 36,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/LongHaul.js",
-                                lineNumber: 21,
+                                lineNumber: 23,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                                 children: "Our Long-Haul Fleet"
                             }, void 0, false, {
                                 fileName: "src/components/LongHaul.js",
-                                lineNumber: 39,
+                                lineNumber: 41,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "Our fleet is purpose-built for long-distance transport and includes sleeper trucks, refrigerated units, flatbeds, and heavy-duty trailers. All vehicles are regularly serviced to ensure reliability over extended journeys."
                             }, void 0, false, {
                                 fileName: "src/components/LongHaul.js",
-                                lineNumber: 40,
+                                lineNumber: 42,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                                 children: "Request a Long-Haul Quote"
                             }, void 0, false, {
                                 fileName: "src/components/LongHaul.js",
-                                lineNumber: 46,
+                                lineNumber: 48,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "Whether you need scheduled long-haul routes or one-time transport, our team is ready to provide a tailored solution that fits your logistics needs."
                             }, void 0, false, {
                                 fileName: "src/components/LongHaul.js",
-                                lineNumber: 47,
+                                lineNumber: 49,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "Email: info@dkktransport.au"
                             }, void 0, false, {
                                 fileName: "src/components/LongHaul.js",
-                                lineNumber: 51,
+                                lineNumber: 53,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/LongHaul.js",
-                        lineNumber: 19,
+                        lineNumber: 21,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/components/LongHaul.js",
-                lineNumber: 14,
+                lineNumber: 16,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/components/LongHaul.js",
-        lineNumber: 5,
+        lineNumber: 7,
         columnNumber: 5
     }, this);
 }
@@ -32562,7 +32564,7 @@ $RefreshReg$(_c, "LongHaul");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","b142efa8dc148110":"4XfN6","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"4XfN6":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","b142efa8dc148110":"4XfN6","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","react":"jMk1U"}],"4XfN6":[function(require,module,exports,__globalThis) {
 module.exports = module.bundle.resolve("long-haul.d8bd8a5b.avif") + "?" + Date.now();
 
 },{}]},["frqA7","hh6uc"], "hh6uc", "parcelRequire5eb5", {}, "./", "/", "http://localhost:1234")
