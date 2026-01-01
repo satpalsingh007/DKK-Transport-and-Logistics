@@ -1,0 +1,189 @@
+.our-company {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 25vh;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.company-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.company-header h1 {
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+}
+
+.company-header p {
+  color: #666;
+  font-size: 1.2rem;
+}
+
+.company-content section {
+  margin-bottom: 40px;
+}
+
+.company-content h2 {
+  color: #333;
+  border-bottom: 2px solid #007bff;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  font-size: 2rem;
+}
+
+.mission p, .services ul, .why-choose-us p, .contact-info p {
+  color: #555;
+  font-size: 1rem;
+}
+
+.services ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.services li {
+  margin-bottom: 10px;
+}
+
+.features {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: flex;
+}
+
+.feature {
+  text-align: center;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  flex: 30%;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px #0000001a;
+}
+
+.feature h3 {
+  color: #007bff;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.contact-info {
+  text-align: center;
+  background-color: #e9ecef;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+@media (width <= 768px) {
+  .our-company {
+    padding: 10px;
+  }
+
+  .company-header h1 {
+    font-size: 2rem;
+  }
+
+  .company-header p {
+    font-size: 1rem;
+  }
+
+  .company-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .features {
+    flex-direction: column;
+  }
+
+  .feature {
+    flex: 100%;
+    margin: 10px 0;
+  }
+}
+
+@media (width <= 480px) {
+  .company-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .company-content h2, .feature h3 {
+    font-size: 1.3rem;
+  }
+}
+
+.item-container {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  display: flex;
+}
+
+.item {
+  text-align: center;
+  background: #007bff;
+  border: 5px solid #00000012;
+  border-radius: 20px;
+  width: 350px;
+  margin-bottom: 30px;
+  padding: 30px 25px;
+  transition: all .5s;
+  box-shadow: 0 0 25px #00000012;
+}
+
+.item:hover .item, .item:hover span.icon {
+  transition: all .5s;
+}
+
+.item:hover {
+  background: #fff;
+  box-shadow: 0 8px 20px #0003;
+}
+
+.item:hover .item, .item:hover span.icon {
+  background: #fff9ab;
+  border-radius: 10px;
+}
+
+.item:hover h6, .item:hover p {
+  color: #000;
+}
+
+.item .icon {
+  color: #000;
+  border-radius: 50px;
+  margin-bottom: 25px;
+  padding: 20px;
+  font-size: 40px;
+  line-height: 96px;
+}
+
+.item .feature_box_col {
+  color: #000;
+  background: #fffbc5;
+}
+
+.item p {
+  color: #fff;
+  font-size: 15px;
+  line-height: 26px;
+}
+
+.item h6 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.company-image-container {
+  justify-content: center;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.company-image {
+  text-align: center;
+  width: 50%;
+}
+/*# sourceMappingURL=dkk-transport-and-logistics.5b87902a.css.map */
