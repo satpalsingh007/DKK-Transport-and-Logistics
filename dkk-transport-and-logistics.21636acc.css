@@ -1,0 +1,147 @@
+.footer {
+  color: #054b81;
+  text-align: center;
+  z-index: 100;
+  background-color: #fff;
+  border-top: 2px solid #86cbff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  width: 100%;
+  padding: 10vh 0 6vh;
+  font-size: 20px;
+  display: flex;
+  position: relative;
+}
+
+.footer-top {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  display: flex;
+}
+
+.footer-mid-second {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 10vw;
+  display: flex;
+}
+
+.footer-logo img {
+  background-color: #e5e7eb15;
+  width: auto;
+  height: 130px;
+}
+
+.footer-mid-second-left div {
+  color: #054b81;
+}
+
+.social-links {
+  text-align: center;
+  color: #000;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: 200;
+  text-decoration: none;
+  transition: background-color .3s;
+  display: flex;
+}
+
+.footer-mid-second-right {
+  text-align: left;
+  gap: 30px;
+  display: flex;
+}
+
+.footer-mid-second-right div {
+  text-align: left;
+}
+
+.footer-mid-second-right div h3 {
+  text-align: left;
+  color: #000;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.footer-mid-second-right div div {
+  text-align: left;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 35px;
+  transition: all .5s;
+  display: flex;
+}
+
+.footer-mid-second-right div div:hover {
+  color: #1881d2;
+}
+
+.footer-end {
+  color: #000;
+  background-color: #1881d2;
+  width: 100vw;
+  padding: 5px 0;
+  font-size: 18px;
+  font-weight: 200;
+  position: absolute;
+  bottom: 0;
+}
+
+.social-links div {
+  color: #fff;
+  background-color: #054b81;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  transition: all .3s;
+  display: flex;
+}
+
+.social-links div:hover {
+  background-color: #1881d2;
+}
+
+@media (width <= 1200px) {
+  .footer-mid-second {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+@media (width <= 767px) {
+  .footer-mid-second-right {
+    flex-wrap: wrap;
+  }
+}
+
+.footer-mid-second-quick {
+  color: #054b81;
+  flex-direction: column;
+  gap: 10px;
+  text-decoration: none;
+  display: flex;
+}
+
+.footer-links {
+  color: #054b81;
+  text-decoration: none;
+}
+
+.footer-truck img {
+  width: auto;
+  height: 200px;
+}
+/*# sourceMappingURL=dkk-transport-and-logistics.21636acc.css.map */
